@@ -1,8 +1,6 @@
 @import url("print.css") print;
 @import url("reset.css");
 @import url("ie.css");
-@import url("font/circular-bold/circularstd-bold.css");
-@import url("font/circular-book/circularstd-book.css");
 
 .both {
     clear: both;
@@ -44,7 +42,30 @@
 	border:0 none !important;
 }
 
+#header {
+    background-color: #009999;
+    border: 1px solid #e6e6e6;
+    margin: 25px auto 45px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
+#form-busca {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 10px 0 10px 3px;
+    background-color: #fff;
+}
+
+#form-busca #search {
+    background: url("../images/icon-busca.png") no-repeat left center;
+    font: bold 12px Arial, Tahoma, Helvetica;
+    color: #000;
+    padding: 0 10px 0 20px;
+    border: 0 none;
+    width: 100%;
+}
 
 /*
  * MEDIA QUERIES
