@@ -1,0 +1,81 @@
+@import url("print.css") print;
+@import url("reset.css");
+@import url("ie.css");
+@import url("font/circular-bold/circularstd-bold.css");
+@import url("font/circular-book/circularstd-book.css");
+
+.both {
+    clear: both;
+    text-indent: -9999px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.left {
+	float:left !important;
+}
+
+.no-padding {
+    padding:0 !important;
+}
+
+.mt0, .mt0 span {
+    margin-top: 0px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.noBg {
+	background:none !important;
+}
+
+.right {
+	float:right !important;
+}
+
+.noBorder {
+	border:0 none !important;
+}
+
+
+
+/*
+ * MEDIA QUERIES
+ */
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media (max-width: 991px) {
+
+
+
+}
+
+@media (max-width: 767px) {
+
+
+
+}
+
+
+@media (max-width: 620px) {
+
+}
+
+@media (max-width: 480px) {
+
+
+
+}
+
