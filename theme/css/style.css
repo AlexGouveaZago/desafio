@@ -22,6 +22,10 @@
     margin-top: 0px !important;
 }
 
+b {
+    font-weight: bold !important;
+}
+
 .mt20 {
     margin-top: 20px !important;
 }
@@ -160,6 +164,106 @@ h1, h2, h3, h4, h5, h6 {
 #caracteristicas-beneficios #beneficios ul li {
     background: url("../images/icon-beneficios.png") no-repeat left top;
     padding:0 0 30px 38px;
+}
+
+#regime-de-colaboracao {
+    margin: 45px 0 0;
+}
+
+#regime-de-colaboracao .box-title {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto 20px;
+}
+
+#regime-de-colaboracao .box-title .cima-title {
+    font: 12px Arial, Tahoma, Helvetica;
+    color: #666666;
+}
+
+#regime-de-colaboracao .box-title h2 {
+    font: 36px Arial, Tahoma, Helvetica;
+    color: #333333;
+}
+
+#box-thumb .thumb {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+#box-thumb .thumb img {
+    display: block;
+    margin: auto;
+}
+
+#box-thumb .box-descricao p {
+    font: 12px Arial, Tahoma, Helvetica;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+#box-thumb .box-descricao span {
+    font: 14px Arial, Tahoma, Helvetica;
+    color: #000;
+}
+
+#box-thumb .box-descricao .btn {
+    display: block;
+    font:bold 16px Arial, Tahoma, Helvetica;
+    color: #FFF;
+    background: url("../images/bg-botoes.jpg") repeat-x;
+    padding: 8px 15px;
+    width: 80%;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 30px;
+    transition: all 0.3s linear 0s;
+}
+
+#box-thumb .box-descricao .btn:hover {
+    opacity: .85;
+}
+
+#regime, #associativismo {
+    margin-top: 35px;
+}
+
+#regime h3, #associativismo h3 {
+    font: bold 18px Arial, Tahoma, Helvetica;
+    color: #000;
+}
+
+#regime p, #associativismo p {
+    font: 14px Arial, Tahoma, Helvetica;
+    color: #333333;
+    padding-bottom: 12px;
+}
+
+#regime .list, #associativismo .list {
+    padding: 0;
+}
+
+#regime .list li {
+    background: url("../images/icon-regime.png") no-repeat left top;
+    padding-left: 30px;
+}
+
+#regime .list li strong, #associativismo .list li strong {
+    font: bold 12px Arial, Tahoma, Helvetica;
+    color: #000;
+    display: block;
+}
+
+#regime .list li span, #associativismo .list li span {
+    font: 12px Arial, Tahoma, Helvetica;
+    color: #000;
+}
+
+#associativismo .list li {
+    background: url("../images/icon-associativismo.png") no-repeat left top;
+    padding-left: 30px;
 }
 
 /*
