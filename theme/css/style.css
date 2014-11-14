@@ -42,6 +42,10 @@
 	border:0 none !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 #header {
     background-color: #009999;
     border: 1px solid #e6e6e6;
@@ -67,6 +71,10 @@
     width: 100%;
 }
 
+#logo {
+    margin: 0;
+}
+
 #menu {
     padding-top: 10px;
 }
@@ -86,7 +94,7 @@
     background-image: none;
 }
 
-#main-title h1 {
+#main-title h2 {
     text-align: center;
     font: 36px Arial, Tahoma, Helvetica;
     color: #333333;
@@ -106,13 +114,53 @@
     color: #666666;
 }
 
-#main-title h2 {
+#main-title h3 {
     font: 22px Arial, Tahoma, Helvetica;
     color: #666666;
     margin: 0;
 }
 
+#caracteristicas-beneficios {
+    margin-top: 45px;
+}
 
+#caracteristicas-beneficios #caracteristicas h2, #caracteristicas-beneficios #beneficios h2 {
+    font: 36px Arial, Tahoma, Helvetica;
+    color: #333333;
+    padding-bottom: 48px;
+}
+
+#caracteristicas-beneficios #caracteristicas ul li {
+    background: url("../images/icon-caracteristica.png") no-repeat left top;
+    padding:0 0 30px 38px;
+}
+
+#caracteristicas-beneficios #caracteristicas ul li strong,
+#caracteristicas-beneficios #beneficios ul li strong {
+    font: 18px Arial, Tahoma, Helvetica;
+    color: #000;
+    display: block;
+}
+
+#caracteristicas-beneficios #caracteristicas ul li span,
+#caracteristicas-beneficios #beneficios ul li span {
+    font: 11px Arial, Tahoma, Helvetica;
+    color: #000;
+    display: block;
+}
+
+#caracteristicas-beneficios #caracteristicas ul li a,
+#caracteristicas-beneficios #beneficios ul li a {
+    font: 11px Arial, Tahoma, Helvetica;
+    color: #ff6600;
+    background: url("../images/icon-link.png") no-repeat left center;
+    padding-left: 8px;
+}
+
+#caracteristicas-beneficios #beneficios ul li {
+    background: url("../images/icon-beneficios.png") no-repeat left top;
+    padding:0 0 30px 38px;
+}
 
 /*
  * MEDIA QUERIES
