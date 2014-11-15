@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+body {
+    min-width: 320px;
+}
+
 #header {
     background-color: #009999;
     border: 1px solid #e6e6e6;
@@ -172,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #regime-de-colaboracao .box-title {
     text-align: center;
-    width: 450px;
+    width: 45%;
     margin: 0 auto 20px;
 }
 
@@ -322,9 +326,18 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF6600;
 }
 
+#thumb-homologacao .thumb {
+    display: block;
+}
+
+#thumb-homologacao .thumb img {
+    display: block;
+    margin: auto;
+}
+
 #thumb-homologacao .btn-resolucao {
     width: 70%;
-    margin-right: 35px;
+    margin-right: 18px;
 }
 
 #como-implantar {
@@ -358,18 +371,44 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1200px) {
 
+    #thumb-homologacao {
+        margin-top: 30px;
+    }
+
+    #thumb-homologacao .btn-resolucao {
+        float: none !important;
+        margin: 20px auto;
+        width: 35%;
+    }
 
 
 }
 
 @media (max-width: 991px) {
 
+    #logo {
+        margin-bottom: 20px;
+    }
 
+    #menu {
+        margin-top: 15px;
+    }
+
+    #regime-de-colaboracao .box-title {
+        width: 90%;
+    }
+
+    #regime .list li, #associativismo .list li {
+        margin-bottom: 15px;
+    }
 
 }
 
 @media (max-width: 767px) {
 
+    #menu ul li a {
+        padding: 7px 19px;
+    }
 
 
 }
