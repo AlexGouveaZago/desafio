@@ -122,6 +122,23 @@ body {
     color: #666666;
 }
 
+.divisor-page {
+    background: url("../images/bg-divisor.png") repeat-x center;
+    width: 100%;
+    margin: 45px 0;
+}
+
+.divisor-page .itens-center {
+    width: 88px;
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 0 7px;
+}
+
+.divisor-page .itens-center span {
+    font: 36px Arial, Tahoma, Helvetica;
+}
+
 #main-title h3 {
     font: 22px Arial, Tahoma, Helvetica;
     color: #666666;
@@ -129,7 +146,7 @@ body {
 }
 
 #caracteristicas-beneficios {
-    margin-top: 45px;
+    width: 100%;
 }
 
 #caracteristicas-beneficios #caracteristicas h2, #caracteristicas-beneficios #beneficios h2 {
@@ -171,7 +188,7 @@ body {
 }
 
 #regime-de-colaboracao {
-    margin: 45px 0 0;
+    width: 100%;
 }
 
 #regime-de-colaboracao .box-title {
@@ -216,15 +233,15 @@ body {
     display: block;
     font:bold 16px Arial, Tahoma, Helvetica;
     color: #FFF;
-    background: url("../images/bg-botoes.jpg") repeat-x;
+    background-image: linear-gradient(to bottom, #019b07, #0aad3f);
     padding: 8px 15px;
-    width: 80%;
     border: 1px solid #e5e5e5;
     border-radius: 4px;
     overflow: hidden;
     margin-top: 30px;
     transition: all 0.3s linear 0s;
     text-align: center;
+    background-color: #019b07;
 }
 
 .btn-download:hover {
@@ -274,7 +291,7 @@ body {
 }
 
 #homologacao-mec {
-    margin-top: 45px;
+    width: 100%;
 }
 
 #homologacao-mec h2 {
@@ -341,7 +358,7 @@ body {
 }
 
 #como-implantar {
-    margin-top: 45px;
+    width: 100%;
 }
 
 #como-implantar h2 {
@@ -362,7 +379,7 @@ body {
     width: 339px;
     margin: 25px auto;
     font: bold 20px Arial, Tahoma, Helvetica;
-    background: url("../images/bg-botoes-maior.jpg") repeat-x;
+    background-image: linear-gradient(to bottom, #019b07, #0aad3f);
 }
 
 /*
@@ -378,7 +395,7 @@ body {
     #thumb-homologacao .btn-resolucao {
         float: none !important;
         margin: 20px auto;
-        width: 35%;
+        width: 40%;
     }
 
 
@@ -402,6 +419,16 @@ body {
         margin-bottom: 15px;
     }
 
+    #thumb-homologacao .btn-resolucao {
+        width: 60%;
+    }
+
+    .btn-download-livro {
+        width: 60%;
+        float: none;
+        margin: 20px auto;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -410,17 +437,19 @@ body {
         padding: 7px 19px;
     }
 
+    #thumb-homologacao .btn-resolucao, #como-implantar .btn-download-metodologia,
+    .btn-download-livro {
+        width: 90%;
+    }
 
-}
-
-
-@media (max-width: 620px) {
 
 }
 
 @media (max-width: 480px) {
 
-
+    #como-implantar .btn-download-metodologia {
+        font-size: 15px;
+    }
 
 }
 
